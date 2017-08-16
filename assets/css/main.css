@@ -1133,6 +1133,23 @@
 				display: none;
 			}
 
+
+/* Links */
+header a:link, header a:visited {
+	color: #668284 !important;
+	color: rgba(255, 255, 255, 0.65);
+	-moz-transition: color .25s ease-in-out !important;
+	-webkit-transition: color .25s ease-in-out !important;
+	-ms-transition: color .25s ease-in-out !important;
+	transition: color .25s ease-in-out !important;
+	text-decoration: none !important;
+}
+
+	header a:hover, header a:active {
+		color: #B9D7D9 !important;
+	}
+/*#B9D7D9,#668284,#2A2829,#493736,#7B3B3B,#B9D7D9,#668284,#2A2829*/
+
 /* Desktop */
 
 	@media screen and (min-width: 737px) {
@@ -1192,6 +1209,7 @@
 			button,
 			.button {
 				padding: 0.7em 1.5em 0.7em 1.5em;
+				color: white;
 			}
 
 				input[type="button"].small,

@@ -1,3 +1,6 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+
 /* Tiles */
 
 	.tiles {
@@ -11,6 +14,7 @@
 		flex-wrap: wrap;
 		postiion: relative;
 		margin: -2.5em 0 0 -2.5em;
+
 	}
 
 		.tiles article {
@@ -19,7 +23,7 @@
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.33333% - 2.5em);
+			width: calc(50% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
 		}
 
@@ -130,6 +134,7 @@
 
 				.tiles article > a h2 {
 					margin: 0;
+					color: #fff;
 				}
 
 				.tiles article > a .content {
@@ -217,7 +222,7 @@
 			}
 
 				.tiles article {
-					width: calc(33.33333% - 1.25em);
+					width: calc(50% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
