@@ -24,7 +24,6 @@
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
 			width: calc(50% - 2.5em);
-			height: auto;
 			margin: 2.5em 0 0 2.5em;
 		}
 
